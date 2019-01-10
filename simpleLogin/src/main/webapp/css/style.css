@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body{
+	background: #B4E4ED;
+}
+header{
+   /* background: url(../img/header-bg.jpg) center center; #B4E4ED;*/
+    color: #fff; text-align: center; 
+    padding: 100px 20px 90px 20px;
+    
+}
+header>h1{
+	font-size: 3.75em; 
+	font-family: 'Raleway', sans-serif; 
+	margin-bottom: 25px;
+}
+header>h3{
+	font-size: 1.125em; 
+	font-family: 'Open Sans', sans-serif; 
+	margin-bottom: 50px; 
+}
+header>p{
+	font-size: 0.75em; 
+	font-family: 'Open Sans', sans-serif; 
+	margin-bottom: 50px; 	
+}
+.subscribe{
+	background: #d2eef4;
+	display: table;
+	padding: 20px;	
+	border-radius: 5px;
+	position: absolute;
+	top:10px;	 
+	right: 10px;
+}
+.subscribeUs{
+	background: #d2eef4;
+	display: table;
+	padding: 10px;	
+	border-radius: 5px;
+	position: absolute;
+	top: 75px;	 
+	right: 10px;
+}
+/*.subscribeUs*/ input[type="text"], input[type="password"], input[type="search"], input[type="date"]{
+	padding: 0; 
+	border:0;
+	width: 220px;
+	margin-right: 10px;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 8px 14px 9px 14px;
+	box-sizing: border-box;	
+}
+/*.subscribeUs*/ input[type="submit"]{
+	background-color: #a2cdd5;/*#90b6bd;*/
+	border:0;
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: 700;
+	padding: 7px 20px;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.indexSub{
+	position: absolute;
+	top:10px;	 
+	right: 10px;
+}
+.subscribe input{
+	float:left;
+}
+
+.block {
+	padding:0px;
+	margin:0px;
+	float:left;		
+}
+
+.subscribe input[type="text"], input[type="password"] {
+	padding: 0; 
+	border:0;
+	width: 320px;
+	margin-right: 10px;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 12px 20px 13px 20px;
+	box-sizing: border-box;
+}
+.subscribe input[type="submit"]{
+	background-color: #a2cdd5;/*#90b6bd;*/
+	border:0;
+	color: #fff;
+	font-size: 1.25em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	padding: 12px 35px;
+	cursor: pointer;
+	margin: 10px;
+}
+textarea{
+	resize:none;
+}
+.coment{
+	margin-left: 200px;		
+}
+.book{
+	margin-left: 300px;		
+	height: 150px;
+	width: 450px;
+	background-color: PaleGoldenrod;
+}
+.person{
+	position: absolute;
+	top: 5px;	 
+	right: 4px;
+	height: 51px;
+	width: 460px;
+	background-color: PaleGoldenrod;
+}
+.insideImg{
+	float: left;
+}
+.insideText{
+	float: left;
+	height: 100px;
+	width: 150px;
+}
+.link{
+	display: block;
+	float: right;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+}
+.img{
+	float: left;
+	height: 100%;
+	padding-right: 10px;
+}
+.iii{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
